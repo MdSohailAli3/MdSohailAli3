@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm Mohammad Sohail Ali</h1>
 <h3 align="center">Java Developer | AI & ML Enthusiast | Java development intern @VaultOfCodes | B.Tech CSE</h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mdsohailali3&label=Profile%20views&color=0e75b6&style=flat" alt="mdsohailali3" />
-</p>
+
 
 - 🎓 **B.Tech CSE | Arya College of Engineering** (2023–Present) | CGPA: 9.50  
 - 🧠 **Currently Learning:** Machine Learning | Applied AI | Java Collections  
