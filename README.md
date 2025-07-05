@@ -27,6 +27,9 @@
 - 🎵 **[Spotify Clone Landing Page](https://github.com/MdSohailAli3/Spotify_Clone)**  
   A clean and responsive landing page of Spotify built with only **HTML** and **CSS** — showcasing design skills and frontend fundamentals.
 
+- 📷 **[LensCraft](https://github.com/MdSohailAli3/Photography-Website-Landing-Page)**  
+  A visually aesthetic and fully interactive photography portfolio landing page built using **HTML** and **CSS** .
+
 ---
 
 ### 📜 Certifications
