@@ -22,8 +22,12 @@
 
 ---
 
+### 📂 Portfolio Projects
 
+- 🎵 **[Spotify Clone Landing Page](https://github.com/MdSohailAli3/Spotify_Clone)**  
+  A clean and responsive landing page of Spotify built with only **HTML** and **CSS** — showcasing design skills and frontend fundamentals.
 
+---
 
 ### 📜 Certifications
 
@@ -50,10 +54,8 @@
   <a href="https://linkedin.com/in/mohammad sohail ali" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mohammad sohail ali" height="30" width="40" />
   </a>
-  &nbsp &nbsp
+  &nbsp; &nbsp;
   <a href="https://www.leetcode.com/md_sohail_ali_1" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="md_sohail_ali_1" height="30" width="40" />
   </a>
 </p>
-
----
