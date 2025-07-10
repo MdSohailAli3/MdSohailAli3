@@ -32,9 +32,9 @@
 
 ### 📜 Certifications
 
-- 🏆 **[Programming in Java](https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS57S114740233504395099)** – 93%, *AIR-135 / 23,206* – *Jan–Apr 2025*  
-- 🤖 **[ML for Engineering & Science Applications](https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS49S64740167604395099)** – 71% – *Jan–Apr 2025*  
-- 💻 **[Problem Solving in C](https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS42S55780020730586732)** – 75% – *Jan–Apr 2024*
+- 🏆 **[Programming in Java(NPTEL)](https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS57S114740233504395099)** – 93%, *AIR-135 / 23,206* – *Jan–Apr 2025*  
+- 🤖 **[ML for Engineering & Science Applications(NPTEL)](https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS49S64740167604395099)** – 71% – *Jan–Apr 2025*  
+- 💻 **[Problem Solving in C(NPTEL)](https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS42S55780020730586732)** – 75% – *Jan–Apr 2024*
 
 ---
 
