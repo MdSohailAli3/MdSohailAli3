@@ -5,13 +5,25 @@
 
 - 🎓 **B.Tech CSE | Arya College of Engineering** (2023–Present) | CGPA: 9.50  
 - 🧠 **Currently Learning:** Machine Learning | Applied AI | Java Collections  
-- 💼 **Recent Internship:** *Java development intern @VaultOfCodes* (Jul–Present, 2025)  
+- 💼 **Recent Internship:** *AI & Cloud intern @IBM* (Jul–Present, 2025)  
 - 📫 **Reach me at:** mohammadali982004@gmail.com  
 - 🔗 **Portfolio Projects:** See below ↓
 
 ---
 
 ### 💼 Work Experience
+
+**AI & Cloud Intern – IBM**  
+*Jul 2025 – Present*  
+- Working on AI and Cloud technologies.
+- using IBM Cloud for deployment and management of various projects under IBM.
+
+
+**Java Developer Intern – VaultOfCodes**  
+*Jul 2025 – Present*  
+- Working on basics of Java and collections framework.   
+- working on a project as an part of the internship.
+
 
 **C++ Developer Intern – CODSOFT**  
 *Jul 2024 – Aug 2024*  
@@ -32,6 +44,8 @@
 
 ### 📜 Certifications
 
+- 🤖 **[Getting Started with Artificial Intelligence(IBM)](https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS49S64740167604395099](https://www.credly.com/badges/90530462-c480-4fb9-81ec-f1e6af37dfea/public_url))** – *July 2025*
+- 💻 **[Journey to Cloud(IBM)](https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS42S55780020730586732](https://www.credly.com/badges/14cafa54-f33c-4163-803e-16c41aa5b402/public_url))** – *July 2025*
 - 🏆 **[Programming in Java(NPTEL)](https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS57S114740233504395099)** – 93%, *AIR-135 / 23,206* – *Jan–Apr 2025*  
 - 🤖 **[ML for Engineering & Science Applications(NPTEL)](https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS49S64740167604395099)** – 71% – *Jan–Apr 2025*  
 - 💻 **[Problem Solving in C(NPTEL)](https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS42S55780020730586732)** – 75% – *Jan–Apr 2024*
