@@ -20,9 +20,9 @@
 
 
 **Java Developer Intern – VaultOfCodes**  
-*Jul 2025 – Present*  
-- Working on basics of Java and collections framework.   
-- working on a project as an part of the internship.
+*Jul 2025 – Jul 2025*  
+- Worked on basics of Java and collections framework.   
+- developed various projects as an part of the internship.
 
 
 **C++ Developer Intern – CODSOFT**  
