@@ -13,7 +13,7 @@
 
 ### 💼 Work Experience
 
-**AI & Cloud Intern – IBM**  
+**AI & Cloud Intern – EDUNET FOUNDATION collab with IBM**  
 *Jul 2025 – Present*  
 - Working on AI and Cloud technologies.
 - using IBM Cloud for deployment and management of various projects under IBM.
