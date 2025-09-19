@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Mohammad Sohail Ali</h1>
-<h3 align="center">Java Developer | AI & ML Enthusiast | Java development intern @VaultOfCodes | B.Tech CSE</h3>
+<h3 align="center">Java Developer | AI & ML Enthusiast | B.Tech CSE</h3>
 
 
 
-- 🎓 **B.Tech CSE | Arya College of Engineering** (2023–Present) | CGPA: 9.50  
-- 🧠 **Currently Learning:** Machine Learning | Applied AI | Java Collections  
-- 💼 **Recent Internship:** *AI & Cloud intern @IBM* (Jul–Present, 2025)  
+- 🎓 **B.Tech CSE | Arya College of Engineering** (2023–Present) | CGPA: 9.45  
+- 🧠 **Currently Learning:** Machine Learning | Applied AI  
+- 💼 **Recent Internship:** *AI & Cloud intern @EdunetFoundation* (Jul–August, 2025)  
 - 📫 **Reach me at:** mohammadali982004@gmail.com  
 - 🔗 **Portfolio Projects:** See below ↓
 
@@ -14,15 +14,16 @@
 ### 💼 Work Experience
 
 **AI & Cloud Intern – EDUNET FOUNDATION collab with IBM**  
-*Jul 2025 – Present*  
-- Working on AI and Cloud technologies.
-- using IBM Cloud for deployment and management of various projects under IBM.
+*Jul 2025 – August 2025*  
+- Build an AI Agent called FarmFriend.
+- Its main objective was to solve farmers queries and give them crop recommendation, weather updates etc.
+- Multilingual Capabilites of FarmFriend makes it easier for farmers.
 
 
 **Java Developer Intern – VaultOfCodes**  
 *Jul 2025 – Jul 2025*  
 - Worked on basics of Java and collections framework.   
-- developed various projects as an part of the internship.
+- developed GUI based TO-DO-LIST Applicattion using JavaFX.
 
 
 **C++ Developer Intern – CODSOFT**  
@@ -33,6 +34,9 @@
 ---
 
 ### 📂 Portfolio Projects
+
+- **[FarmFriend AI-AGENT](https://github.com/MdSohailAli3/FarmFriend)**  
+  An multilingual AI Agent for farmers to help them in any query regarding crops, fertilizers, weather updates and current market prices of crops etc.
 
 - 🎵 **[Spotify Clone Landing Page](https://github.com/MdSohailAli3/Spotify_Clone)**  
   A clean and responsive landing page of Spotify built with only **HTML** and **CSS** — showcasing design skills and frontend fundamentals.
@@ -55,10 +59,10 @@
 ### 🧰 Skills & Tools
 
 **Languages:** `C` `C++` `Java` `Python` `HTML` `CSS` `Shell`  
-**Frameworks:** `Pandas` `NumPy` `Scikit-Learn` `Matplotlib`  
-**Databases:** `MySQL`  
+**Frameworks:**  `Java Collections` `JavaFX` `Java Swing` `Pandas` `NumPy` `Scikit-Learn` `Matplotlib`  
+**Databases:** `MySQL` `MongoDB`   
 **Tools:** `Git` `PowerPoint` `Excel` `Firebase`  
-**IDEs:** `VS Code` `IntelliJ IDEA`  
+**IDEs:** `VS Code` `IntelliJ IDEA` `Eclipse` `NetBeans`  
 **Soft Skills:** `Team Leadership` `Communication` `People Management`
 
 ---
