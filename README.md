@@ -35,7 +35,7 @@
 
 ### 📂 Portfolio Projects
 
-- **[FarmFriend AI-AGENT](https://github.com/MdSohailAli3/FarmFriend)**  
+- **[FarmFriend AI-AGENT](https://github.com/MdSohailAli3/FarmFriend-AI-Agent)**  
   An multilingual AI Agent for farmers to help them in any query regarding crops, fertilizers, weather updates and current market prices of crops etc.
 
 - 🎵 **[Spotify Clone Landing Page](https://github.com/MdSohailAli3/Spotify_Clone)**  
