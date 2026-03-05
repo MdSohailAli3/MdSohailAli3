@@ -64,6 +64,10 @@
 **Soft Skills:** `Team Leadership` `Communication` `People Management`
 
 ---
+<p align="center">
+<img src="file.gif" width="600">
+  </p>
+---
 
 ### 🌐 Connect with Me
 
