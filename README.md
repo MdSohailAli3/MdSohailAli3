@@ -55,18 +55,24 @@
 
 ### 🧰 Skills & Tools
 
-**Languages:** `C` `C++` `Java` `Python` `HTML` `CSS` `JavaScript` `TypeScript`
-**Frameworks:** `FastAPI` `React` `ExpressJS`
-**Libraries:** `Scikit-Learn` `Matplotlib` `Seaborn` `Numpy` `Pandas` `JavaFX` `Swing` `Pydantic` `Motor` 
-**Cocepts:** `DSA[LeetCode- 200+]` `OOP`
-**Databases:** `MySQL` `MongoDB`   
-**IDEs:** `VS Code` `IntelliJ IDEA` `Eclipse` `NetBeans`  
-**Soft Skills:** `Team Leadership` `Communication` `People Management`
-
----
 <p align="center">
 <img src="file.gif" width="600">
   </p>
+  
+**Languages:** `C` `C++` `Java` `Python` `HTML` `CSS` `JavaScript` `TypeScript`
+
+**Frameworks:** `FastAPI` `React` `ExpressJS`
+
+**Libraries:** `Scikit-Learn` `Matplotlib` `Seaborn` `Numpy` `Pandas` `JavaFX` `Swing` `Pydantic` `Motor` 
+
+**Cocepts:** `DSA[LeetCode- 200+]` `OOP`
+
+**Databases:** `MySQL` `MongoDB`   
+
+**IDEs:** `VS Code` `IntelliJ IDEA` `Eclipse` `NetBeans`  
+
+**Soft Skills:** `Team Leadership` `Communication` `People Management`
+
 ---
 
 ### 🌐 Connect with Me
