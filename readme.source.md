@@ -360,7 +360,7 @@
 <SocialMediaButton
   icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
   text="LinkedIn"
-  backgroundColor="#0A66C2"
+  backgroundColor="#111111"
   width={160}
   height={44}
   textColor="#ffffff"
@@ -415,5 +415,3 @@
   ]}
 />
 ```
-<br>
-<p align="center"><sub>𝗉𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 <a href="https://github.com/collectioneur/readme-aura">𝗋𝖾𝖺𝖽𝗆𝖾-𝖺𝗎𝗋𝖺</a></sub></p>
