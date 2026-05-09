@@ -234,52 +234,66 @@
 })()
 ```
 
-```aura width=860 height=168
+
+```aura width=860 height=380
 (function() {
- var topLangs =  ['Python','Java', 'C', 'C++', 'JavaScript', 'TypeScript'];
+ var topLangs = ['Python','Java','C','C++','JavaScript','TypeScript'];
+
  var categories = [
    { title: 'Languages', color: '#a78bfa', items: topLangs },
-   { title: 'Frameworks', color: '#60a5fa', items: ['Tensorflow', 'Scikit-learn', 'FastAPI', 'OpenCV', 'React', 'ExpressJS', 'NodeJS'] },
-   { title: 'Databases', color: '#c90202', items: ['MySQL', 'MongoDB'] },
+   { title: 'Frameworks', color: '#60a5fa', items: ['Tensorflow','Scikit-learn','FastAPI','OpenCV','React','ExpressJS','NodeJS'] },
+   { title: 'Databases', color: '#c90202', items: ['MySQL','MongoDB'] },
  ];
 
  return (
    <div style={{
-     width: '100%', height: '100%',
-     background: '#08080c',
-     display: 'flex', flexDirection: 'column',
-     fontFamily: 'Inter', padding: '18px 32px', gap: 14,
-     borderRadius: 16, border: '1px solid rgba(110,80,220,0.18)',
-     position: 'relative', overflow: 'hidden',
+     width:'100%',
+     height:'100%',
+     background:'#08080c',
+     display:'flex',
+     flexDirection:'column',
+     fontFamily:'Inter',
+     padding:'18px 32px',
+     gap:14,
+     borderRadius:16,
+     border:'1px solid rgba(110,80,220,0.18)',
+     position:'relative',
+     overflow:'hidden',
    }}>
 
      <style>
        {`
          @keyframes float-slow {
-           0%, 100% { transform: translateX(0px); opacity: 0.8; }
-           50% { transform: translateX(350px); opacity: 1.2; }
+           0%,100% { transform: translateX(0px); opacity:0.8; }
+           50% { transform: translateX(350px); opacity:1.2; }
          }
+
          @keyframes float-medium {
-           0%, 100% { transform: translateX(0px); opacity: 0.7; }
-           50% { transform: translateX(-250px); opacity: 1.1; }
+           0%,100% { transform: translateX(0px); opacity:0.7; }
+           50% { transform: translateX(-250px); opacity:1.1; }
          }
+
          @keyframes float-fast {
-           0%, 100% { transform: translateX(0px); opacity: 0.9; }
-           50% { transform: translateX(200px); opacity: 0.6; }
+           0%,100% { transform: translateX(0px); opacity:0.9; }
+           50% { transform: translateX(200px); opacity:0.6; }
          }
+
          @keyframes float-diagonal {
-           0%, 100% { transform: translate(0px, 0px); opacity: 0.75; }
-           50% { transform: translate(120px, 30px); opacity: 1.0; }
+           0%,100% { transform: translate(0px,0px); opacity:0.75; }
+           50% { transform: translate(120px,30px); opacity:1; }
          }
+
          @keyframes float-wave {
-           0%, 100% { transform: translateX(0px); opacity: 0.65; }
-           33% { transform: translateX(-160px); opacity: 0.9; }
-           66% { transform: translateX(80px); opacity: 1.0; }
+           0%,100% { transform: translateX(0px); opacity:0.65; }
+           33% { transform: translateX(-160px); opacity:0.9; }
+           66% { transform: translateX(80px); opacity:1; }
          }
+
          @keyframes float-pulse {
-           0%, 100% { transform: scale(1); opacity: 0.8; }
-           50% { transform: scale(1.3); opacity: 0.4; }
+           0%,100% { transform: scale(1); opacity:0.8; }
+           50% { transform: scale(1.3); opacity:0.4; }
          }
+
          #glow-1 { animation: float-slow 9s ease-in-out infinite; }
          #glow-2 { animation: float-medium 12s ease-in-out infinite; }
          #glow-3 { animation: float-fast 8s ease-in-out infinite; }
@@ -289,73 +303,441 @@
        `}
      </style>
 
-     <svg width="860" height="168" style={{ position: 'absolute', top: 0, left: 0 }}>
+     <svg width="860" height="380" style={{
+       position:'absolute',
+       top:0,
+       left:0,
+     }}>
        <defs>
-         <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+         <radialGradient id="g1">
            <stop offset="0%" stopColor="rgba(115,20,215,0.68)" />
-           <stop offset="42%" stopColor="rgba(85,15,175,0.30)" />
            <stop offset="70%" stopColor="rgba(85,15,175,0)" />
          </radialGradient>
-         <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+
+         <radialGradient id="g2">
            <stop offset="0%" stopColor="rgba(55,55,255,0.55)" />
-           <stop offset="45%" stopColor="rgba(35,45,210,0.22)" />
            <stop offset="70%" stopColor="rgba(35,45,210,0)" />
          </radialGradient>
-         <radialGradient id="g3" cx="50%" cy="50%" r="50%">
+
+         <radialGradient id="g3">
            <stop offset="0%" stopColor="rgba(0,130,255,0.42)" />
-           <stop offset="50%" stopColor="rgba(0,100,220,0.16)" />
            <stop offset="70%" stopColor="rgba(0,100,220,0)" />
          </radialGradient>
+
          <radialGradient id="g4" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(0,185,240,0.32)" />
-           <stop offset="70%" stopColor="rgba(0,185,240,0)" />
-         </radialGradient>
-         <radialGradient id="g5" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(100,25,205,0.42)" />
-           <stop offset="70%" stopColor="rgba(100,25,205,0)" />
-         </radialGradient>
-         <radialGradient id="g6" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(60,80,255,0.35)" />
-           <stop offset="70%" stopColor="rgba(60,80,255,0)" />
-         </radialGradient>
+  <stop offset="0%" stopColor="rgba(0,185,240,0.32)" />
+  <stop offset="70%" stopColor="rgba(0,185,240,0)" />
+</radialGradient>
+
+<radialGradient id="g5" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stopColor="rgba(100,25,205,0.42)" />
+  <stop offset="70%" stopColor="rgba(100,25,205,0)" />
+</radialGradient>
+
+<radialGradient id="g6" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stopColor="rgba(60,80,255,0.35)" />
+  <stop offset="70%" stopColor="rgba(60,80,255,0)" />
+</radialGradient>
        </defs>
+
        <ellipse id="glow-1" cx="170" cy="168" rx="260" ry="170" fill="url(#g1)" />
-       <ellipse id="glow-2" cx="320" cy="178" rx="220" ry="140" fill="url(#g2)" />
-       <ellipse id="glow-3" cx="460" cy="178" rx="190" ry="130" fill="url(#g3)" />
+       <ellipse id="glow-2" cx="420" cy="200" rx="240" ry="150" fill="url(#g2)" />
+       <ellipse id="glow-3" cx="720" cy="260" rx="220" ry="160" fill="url(#g3)" />
        <ellipse id="glow-4" cx="590" cy="188" rx="160" ry="110" fill="url(#g4)" />
-       <ellipse id="glow-5" cx="750" cy="188" rx="140" ry="100" fill="url(#g5)" />
-       <ellipse id="glow-6" cx="420" cy="138" rx="100" ry="80" fill="url(#g6)" />
+       <ellipse id="glow-5" cx="720" cy="260" rx="180" ry="120" fill="url(#g5)" />
+       <ellipse id="glow-6" cx="500" cy="260" rx="160" ry="100" fill="url(#g6)" />
      </svg>
 
-     <div style={{ display:'flex', fontSize:10, fontWeight:700, color:'rgba(155,140,210,0.5)', letterSpacing:'3px' }}>
+     <div style={{
+       display:'flex',
+       fontSize:10,
+       fontWeight:700,
+       color:'rgba(155,140,210,0.5)',
+       letterSpacing:'3px',
+     }}>
        TECH STACK
      </div>
-     <div style={{ display:'flex', flexDirection:'column', gap:14 }}>
+
+     <div style={{
+       display:'flex',
+       flexDirection:'column',
+       gap:14,
+     }}>
+
        {categories.map(function(cat) {
          return (
-           <div key={cat.title} style={{ display:'flex', alignItems:'center', gap:16 }}>
-             <div style={{ display:'flex', fontSize:10, fontWeight:700, color:cat.color, letterSpacing:'1px', width:80 }}>
+           <div
+             key={cat.title}
+             style={{
+               display:'flex',
+               alignItems:'center',
+               gap:16,
+             }}
+           >
+
+             <div style={{
+               display:'flex',
+               fontSize:10,
+               fontWeight:700,
+               color:cat.color,
+               letterSpacing:'1px',
+               width:80,
+             }}>
                {cat.title.toUpperCase()}
              </div>
-             <div style={{ display:'flex', flexWrap:'wrap', gap:7 }}>
+
+             <div style={{
+               display:'flex',
+               flexWrap:'wrap',
+               gap:7,
+             }}>
+
                {cat.items.map(function(item) {
                  return (
-                   <div key={item} style={{
-                     display:'flex', padding:'4px 13px', borderRadius:6,
-                     background:cat.color + '15', border:'1px solid ' + cat.color + '35',
-                     color:'rgba(225,220,255,0.85)', fontSize:12, fontWeight:600,
-                   }}>{item}</div>
+                   <div
+                     key={item}
+                     style={{
+                       display:'flex',
+                       padding:'4px 13px',
+                       borderRadius:6,
+                       background:cat.color + '15',
+                       border:'1px solid ' + cat.color + '35',
+                       color:'rgba(225,220,255,0.85)',
+                       fontSize:12,
+                       fontWeight:600,
+                     }}
+                   >
+                     {item}
+                   </div>
                  );
                })}
+
              </div>
            </div>
          );
        })}
+
      </div>
+
+    <div style={{
+  display:'flex',
+  flexDirection:'column',
+  gap:12,
+  marginTop:16,
+}}>
+
+  <div style={{
+       display:'flex',
+       fontSize:10,
+       fontWeight:700,
+       color:'rgba(155,140,210,0.5)',
+       letterSpacing:'3px',
+     }}>
+       PROJECTS
+     </div>
+
+  <div style={{
+    display:'flex',
+    gap:14,
+  }}>
+
+    {/* CLEFAIRY */}
+
+    <div style={{
+      display:'flex',
+      flexDirection:'column',
+      gap:12,
+      width:'50%',
+      height:'75%',
+      padding:'16px 18px',
+      borderRadius:14,
+      background:'rgba(255,255,255,0.03)',
+      border:'1px solid rgba(120,120,255,0.12)',
+    }}>
+
+      <div style={{
+        display:'flex',
+        flexDirection:'column',
+        gap:4,
+      }}>
+        <div style={{
+          display:'flex',
+          fontSize:20,
+          fontWeight:800,
+          color:'rgba(255,255,255,0.95)',
+        }}>
+          Clefairy
+        </div>
+
+        <div style={{
+          display:'flex',
+          fontSize:12,
+          color:'rgba(180,180,220,0.7)',
+        }}>
+          Women Safety Backend System
+        </div>
+      </div>
+
+      <div style={{
+        display:'flex',
+        gap:7,
+        flexWrap:'wrap',
+      }}>
+        <div style={{
+          display:'flex',
+          padding:'4px 10px',
+          borderRadius:6,
+          background:'#60a5fa15',
+          border:'1px solid #60a5fa35',
+          color:'#93c5fd',
+          fontSize:11,
+          fontWeight:700,
+        }}>
+          FastAPI
+        </div>
+
+        <div style={{
+          display:'flex',
+          padding:'4px 10px',
+          borderRadius:6,
+          background:'#34d39915',
+          border:'1px solid #34d39935',
+          color:'#6ee7b7',
+          fontSize:11,
+          fontWeight:700,
+        }}>
+          MongoDB
+        </div>
+      </div>
+
+      <div style={{
+        display:'flex',
+        flexDirection:'column',
+        gap:6,
+        color:'rgba(225,225,235,0.82)',
+        fontSize:12,
+      }}>
+        <div style={{ display:'flex' }}>
+          • Async SOS alert APIs
+        </div>
+
+        <div style={{ display:'flex' }}>
+          • Live location tracking
+        </div>
+      </div>  
+
+
+<div style={{
+  display:'flex',
+  justifyContent:'flex-end',
+  marginTop:8,
+  transform:'translateY(-50px)',
+}}>
+
+  <style>
+    {`
+      @keyframes holographicFlow {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 200% 50%; }
+      }
+
+      #demoBtnBlue {
+        animation: holographicFlow 4s linear infinite;
+      }
+    `}
+  </style>
+
+
+
+
+ <a
+    href="https://clefairy-backend.onrender.com/"
+    style={{
+      textDecoration:'none',
+    }}
+  >
+
+  <div
+    id="demoBtnBlue"
+    style={{
+      display:'flex',
+      alignItems:'center',
+      justifyContent:'center',
+      gap:8,
+      padding:'9px 18px',
+      borderRadius:999,
+      background:'linear-gradient(90deg,#ffffff,#60a5fa,#2563eb,#60a5fa,#ffffff)',
+      backgroundSize:'200% 200%',
+      color:'#050816',
+      fontSize:11,
+      fontWeight:800,
+      boxShadow:'0 0 18px rgba(96,165,250,0.35)',
+    }}
+  >
+    <div style={{ display:'flex' }}>
+      Live Demo
+    </div>
+
+  </div>
+  </a>
+</div>
+
+
+
+
+
+
+    </div>
+    
+
+    {/* FARMFRIEND */}
+
+    <div style={{
+      display:'flex',
+      flexDirection:'column',
+      gap:12,
+      width:'50%',
+      height:'75%',
+      padding:'16px 18px',
+      borderRadius:14,
+      background:'rgba(255,255,255,0.03)',
+      border:'1px solid rgba(120,120,255,0.12)',
+    }}>
+
+      <div style={{
+        display:'flex',
+        flexDirection:'column',
+        gap:4,
+      }}>
+        <div style={{
+          display:'flex',
+          fontSize:20,
+          fontWeight:800,
+          color:'rgba(255,255,255,0.95)',
+        }}>
+          FarmFriend
+        </div>
+
+        <div style={{
+          display:'flex',
+          fontSize:12,
+          color:'rgba(180,180,220,0.7)',
+        }}>
+          AI Farming Assistant
+        </div>
+      </div>
+
+      <div style={{
+        display:'flex',
+        gap:7,
+        flexWrap:'wrap',
+      }}>
+        <div style={{
+          display:'flex',
+          padding:'4px 10px',
+          borderRadius:6,
+          background:'#a78bfa15',
+          border:'1px solid #a78bfa35',
+          color:'#c4b5fd',
+          fontSize:11,
+          fontWeight:700,
+        }}>
+          LlaMa-3
+        </div>
+
+        <div style={{
+          display:'flex',
+          padding:'4px 10px',
+          borderRadius:6,
+          background:'#f59e0b15',
+          border:'1px solid #f59e0b35',
+          color:'#fcd34d',
+          fontSize:11,
+          fontWeight:700,
+        }}>
+          IBM CloudLite
+        </div>
+      </div>
+
+      <div style={{
+        display:'flex',
+        flexDirection:'column',
+        gap:6,
+        color:'rgba(225,225,235,0.82)',
+        fontSize:12,
+      }}>
+        <div style={{ display:'flex' }}>
+          • Multilingual query agent
+        </div>
+
+        <div style={{ display:'flex' }}>
+          • Smart farming recommendations
+        </div>
+      </div>
+
+<div style={{
+  display:'flex',
+  justifyContent:'flex-end',
+  marginTop:8,
+  transform:'translateY(-50px)',
+}}>
+
+  <style>
+    {`
+      @keyframes holographicFlow {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 200% 50%; }
+      }
+
+      #demoBtnBlue {
+        animation: holographicFlow 4s linear infinite;
+      }
+    `}
+  </style>
+<a
+    href="https://github.com/MdSohailAli3/FarmFriend-AI-Agent"
+    style={{
+      textDecoration:'none',
+    }}
+  >
+  <div
+    id="demoBtnBlue"
+    style={{
+      display:'flex',
+      alignItems:'center',
+      justifyContent:'center',
+      gap:8,
+      padding:'9px 18px',
+      borderRadius:999,
+      background:'linear-gradient(90deg,#ffffff,#60a5fa,#2563eb,#60a5fa,#ffffff)',
+      backgroundSize:'200% 200%',
+      color:'#050816',
+      fontSize:11,
+      fontWeight:800,
+      boxShadow:'0 0 18px rgba(96,165,250,0.35)',
+    }}
+  >
+    <div style={{ display:'flex' }}>
+      Live Demo
+    </div>
+
+  </div>
+  </a>
+
+</div>
+
+
+
+
+    </div>
+
+  </div>
+</div>
    </div>
  );
 })()
 ```
+
 ```aura width=160 height=44 link="https://linkedin.com/in/MdSohailAli3" inline align=center
 <SocialMediaButton
   icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
@@ -396,12 +778,12 @@
 />
 ```
 
-```aura width=150 height=44 link="mailto:mohammadali982004@gmail.com" inline align=center
+```aura width=160 height=44 link="mailto:mohammadali982004@gmail.com" inline align=center
 <SocialMediaButton
   icon="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"
   text="Gmail"
   backgroundColor="#111111"
-  width={150}
+  width={160}
   height={44}
   textColor="#ffffff"
   iconSize="30"
