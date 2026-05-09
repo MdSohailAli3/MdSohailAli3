@@ -448,7 +448,7 @@
       flexDirection:'column',
       gap:12,
       width:'50%',
-      height:'75%',
+      height:'100%',
       padding:'16px 18px',
       borderRadius:14,
       background:'rgba(255,255,255,0.03)',
@@ -527,65 +527,6 @@
       </div>  
 
 
-<div style={{
-  display:'flex',
-  justifyContent:'flex-end',
-  marginTop:8,
-  transform:'translateY(-50px)',
-}}>
-
-  <style>
-    {`
-      @keyframes holographicFlow {
-        0% { background-position: 0% 50%; }
-        100% { background-position: 200% 50%; }
-      }
-
-      #demoBtnBlue {
-        animation: holographicFlow 4s linear infinite;
-      }
-    `}
-  </style>
-
-
-
-
- <a
-    href="https://clefairy-backend.onrender.com/"
-    style={{
-      textDecoration:'none',
-    }}
-  >
-
-  <div
-    id="demoBtnBlue"
-    style={{
-      display:'flex',
-      alignItems:'center',
-      justifyContent:'center',
-      gap:8,
-      padding:'9px 18px',
-      borderRadius:999,
-      background:'linear-gradient(90deg,#ffffff,#60a5fa,#2563eb,#60a5fa,#ffffff)',
-      backgroundSize:'200% 200%',
-      color:'#050816',
-      fontSize:11,
-      fontWeight:800,
-      boxShadow:'0 0 18px rgba(96,165,250,0.35)',
-    }}
-  >
-    <div style={{ display:'flex' }}>
-      Live Demo
-    </div>
-
-  </div>
-  </a>
-</div>
-
-
-
-
-
 
     </div>
     
@@ -597,7 +538,7 @@
       flexDirection:'column',
       gap:12,
       width:'50%',
-      height:'75%',
+      height:'100%',
       padding:'16px 18px',
       borderRadius:14,
       background:'rgba(255,255,255,0.03)',
@@ -674,60 +615,6 @@
           • Smart farming recommendations
         </div>
       </div>
-
-<div style={{
-  display:'flex',
-  justifyContent:'flex-end',
-  marginTop:8,
-  transform:'translateY(-50px)',
-}}>
-
-  <style>
-    {`
-      @keyframes holographicFlow {
-        0% { background-position: 0% 50%; }
-        100% { background-position: 200% 50%; }
-      }
-
-      #demoBtnBlue {
-        animation: holographicFlow 4s linear infinite;
-      }
-    `}
-  </style>
-<a
-    href="https://github.com/MdSohailAli3/FarmFriend-AI-Agent"
-    style={{
-      textDecoration:'none',
-    }}
-  >
-  <div
-    id="demoBtnBlue"
-    style={{
-      display:'flex',
-      alignItems:'center',
-      justifyContent:'center',
-      gap:8,
-      padding:'9px 18px',
-      borderRadius:999,
-      background:'linear-gradient(90deg,#ffffff,#60a5fa,#2563eb,#60a5fa,#ffffff)',
-      backgroundSize:'200% 200%',
-      color:'#050816',
-      fontSize:11,
-      fontWeight:800,
-      boxShadow:'0 0 18px rgba(96,165,250,0.35)',
-    }}
-  >
-    <div style={{ display:'flex' }}>
-      Live Demo
-    </div>
-
-  </div>
-  </a>
-
-</div>
-
-
-
 
     </div>
 
